@@ -15,27 +15,27 @@ Getting good at them helps you build better analytics projects more efficiently.
 
 You should have these downloaded and installed on your machine:
 
-1. Python 3.10 or higher
-1. VS Code
-1. VS Code Extension: Python
-1. Git (configured with user.name and user.email - the same email you use for GitHub)
+1. Python 3.10 or higher =BR Check Complete 
+1. VS Code = BR Check Complete 
+1. VS Code Extension: Python = BR Check Complete 
+1. Git (configured with user.name and user.email - the same email you use for GitHub) = BR Check Complete 
 
 Remember:
 
-- **Spacing, Spelling, Capitalization**: When programming, these are critical. Always double-check!
+- **Spacing, Spelling, Capitalization**: When programming, these are critical. Always double-check! = BR Noted 
 
 ---
 
 ## Open Project Folder in VS Code
 
-In VS Code, open just your project repository folder, e.g. Documents/streaming-01-getting-started.
+In VS Code, open just your project repository folder, e.g. Documents/streaming-01-getting-started. = BR Documents/git/Robin_44671_8081/streaming-01-getting-started
 
 ## Verify Installations / Update Default Python
 
-In VS Code, open a terminal window (View / Terminal) and verify your software is installed and configured.
+In VS Code, open a terminal window (View / Terminal) and verify your software is installed and configured. = BR Complete 
 
-- If Mac/Linux, the default terminal should work.
-- If Windows, be sure you're using a PowerShell terminal (rather than cmd).
+- If Mac/Linux, the default terminal should work. = BR NA
+- If Windows, be sure you're using a PowerShell terminal (rather than cmd). = Check
 
 Important: 
 
@@ -52,11 +52,26 @@ python --version
 python -m pip install --upgrade pip wheel
 ```
 
+BR Results 
+
+PS C:\Users\RobinBe> git --version
+>> git config user.name
+>> git config user.email
+>> python --version
+>> python -m pip install --upgrade pip wheel
+git version 2.44.0.windows.1
+Ben Robin
+Benjamin.Robin22@gmail.com
+Python 3.12.3
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in c:\program files\windowsapps\pythonsoftwarefoundation.python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\lib\site-packages (24.0)
+Requirement already satisfied: wheel in c:\users\robinbe\appdata\local\packages\pythonsoftwarefoundation.python.3.12_qbz5n2kfra8p0\localcache\local-packages\python312\site-packages (0.43.0)
+
 ✔️ Make sure all commands complete successfully. 
 If not, post your screenshots and the text of the error message in the discussion.
 They all must run successfully before continuing.
 
-## Execute Utility Script (Diagnostics)
+## Execute Utility Script (Diagnostics) - BR Check
 
 With your repo folder open in VS Code:
 
@@ -82,6 +97,33 @@ python util_about.py
 ✔️ Make sure your script runs successfully. 
 If not, post your screenshots and the text of the error message in the discussion.
 This script must run successfully before continuing. 
+
+Notes for later !!!! this is the path for my file cd C:\Users\RobinBe\Documents\git\Robin_44671_8081\streaming-01-getting-started
+
+======================================================================
+ Welcome to the NW Python Debugging Information Utility!
+ Date and Time: 2024-05-01 at 05:23 PM
+ Operating System: nt Windows 10
+ System Architecture: 64bit
+ Number of CPUs: 32
+ Machine Type: AMD64
+ Python Version: 3.12.3
+ Python Build Date and Compiler: tags/v3.12.3:f6650f9 with Apr  9 2024 14:05:25
+ Python Implementation: CPython
+ Active pip environment:   None
+ Active conda environment: None
+ Path to Interpreter:         C:\Users\RobinBe\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+ Path to virtual environment: C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0
+ Current Working Directory:   C:\Users\RobinBe\Documents\git\Robin_44671_8081\streaming-01-getting-started
+ Path to source directory:    C:\Users\RobinBe\Documents\git\Robin_44671_8081\streaming-01-getting-started
+ Path to script file:         C:\Users\RobinBe\Documents\git\Robin_44671_8081\streaming-01-getting-started\util_about.py
+ User's Home Directory:       C:\Users\RobinBe
+ Terminal Environment:        Native Terminal
+ Terminal Type:               cmd.exe
+ Preferred command:           python
+ Is python available in PATH:   True
+ Is git available in PATH:      True
+======================================================================
 ---
 
 
@@ -121,7 +163,7 @@ python process_batch_C.py
 python process_streaming_0.py
 ```
 
-✔️ Make sure your scripts complete successfully. 
+✔️ Make sure your scripts complete successfully. - BR note I moved them over to ipynb files becaue am more conforatable with these. 
 If not, post screenshots and the text of any error messages in the discussion.
 ---
 
@@ -137,7 +179,7 @@ Edit this README.md file. It uses Markdown, a simple and easy markup language.
 ## Sync to GitHub
 
 Now it's time to get the local work you did on your machine, 
-back up to your cloud repo in GitHub.
+back up to your cloud repo in GitHub. - Committed updates to git
 
 
 ### Option A: Use VS Code (Easy!)
@@ -148,7 +190,7 @@ back up to your cloud repo in GitHub.
 1. In the commit message input box, type "initial results".
 1. Click the down arrow on the blue "Commit" button to "Commit and Push" to your GitHub repo. 
 
-Verify: Open a browser to your GitHub repo and verify the files have appeared. 
+Verify: Open a browser to your GitHub repo and verify the files have appeared.  - BR Verified 
 In addition to the original files, you should have one or more new files and an edited Markdown file. 
 If not, return to VS Code and edit/execute files as needed. 
 Then commit and push again.
@@ -160,7 +202,7 @@ Then click the checkmark in the upper right to close that file and save your com
 
 ### Option B: Use Git Bash or Terminal Commands (Easy as well):
 
-Open a new `Git Bash` or Terminal window. Run the following commands one at a time.
+Open a new `Git Bash` or Terminal window. Run the following commands one at a time. - BR this is the method I chose. 
 They will first add all the files (add "dot"). 
 Then they will commit the changes with a message. 
 Finally, they will push the changes up to GitHub.
