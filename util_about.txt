@@ -1,0 +1,27 @@
+
+======================================================================
+======================================================================
+ Welcome to the NW Python Debugging Information Utility!
+ Date and Time: 2024-04-29 at 05:37 PM
+ Operating System: nt Windows 10
+ System Architecture: 64bit
+ Number of CPUs: 32
+ Machine Type: AMD64
+ Python Version: 3.12.3
+ Python Build Date and Compiler: tags/v3.12.3:f6650f9 with Apr  9 2024 14:05:25
+ Python Implementation: CPython
+ Active pip environment:   None
+ Active conda environment: None
+ Path to Interpreter:         c:\Users\RobinBe\Documents\git\Robin_44671_8081\.venv\Scripts\python.exe
+ Path to virtual environment: c:\Users\RobinBe\Documents\git\Robin_44671_8081\.venv
+ Current Working Directory:   c:\Users\RobinBe\Documents\git\Robin_44671_8081\streaming-01-getting-started
+ Path to source directory:    c:\Users\RobinBe\Documents\git\Robin_44671_8081\streaming-01-getting-started
+ Path to script file:         c:\Users\RobinBe\Documents\git\Robin_44671_8081\streaming-01-getting-started\util_about.py
+ User's Home Directory:       C:\Users\RobinBe
+ Terminal Environment:        Native Terminal
+ Terminal Type:               cmd.exe
+ Preferred command:           python
+ Is python available in PATH:   True
+ Is git available in PATH:      True 
+======================================================================
+======================================================================
